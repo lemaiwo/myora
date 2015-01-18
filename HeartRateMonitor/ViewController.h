@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  HeartRateMonitor
+//
+//  Created by Wouter Lemaire on 18/01/15.
+//  Copyright (c) 2015 Wouter Lemaire. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+

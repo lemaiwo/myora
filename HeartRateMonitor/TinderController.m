@@ -54,24 +54,27 @@
     
     NSURL *url = [NSURL URLWithString:urlBaseString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
-    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    //NSOperationQueue *queue = [[NSOperationQueue alloc] init];
     
     //create request
+    NSURLResponse * response = nil;
+    NSError * error = nil;
+    NSData * mydata = [NSURLConnection sendSynchronousRequest:urlRequest
+                                          returningResponse:&response
+                                                      error:&error];
     
-    [NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
-     {
-         if (error)
-         {
-             NSLog(@"Error,%@", [error localizedDescription]);
-             //[self.log setText:[@"Error\n" stringByAppendingString:text]];
-         }
-         else
-         {
-             NSLog(@"OK ");
-             //NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]);
-             //[self.log setText:[@"Verzonden\n" stringByAppendingString:text]];
-         }
-     }];
+    if (mydata) {
+        NSLog(@"OK ,%@", mydata);
+        uint8_t byteArray[[mydata length]];
+        
+        [mydata getBytes:&byteArray length:[mydata length]];
+        
+        for (int i = 0; i<[mydata length]; i++) {
+            char byte = byteArray[i];
+            NSLog(@"%c",byte);
+        }
+        
+    }
 
 }
 

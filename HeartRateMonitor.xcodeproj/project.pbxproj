@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5727BC6BFE2F966D699091AA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8E87FF72F2241997C3E29E /* libPods.a */; };
+		6A0ED94E1AEC1DF300269233 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0ED94D1AEC1DF300269233 /* SettingsController.m */; };
+		6A244D2D1AEC0C2A00AD64A9 /* PageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A244D2C1AEC0C2A00AD64A9 /* PageController.m */; };
+		6A4645AD1AA3A6BF001DF042 /* HeartImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A4645AC1AA3A6BF001DF042 /* HeartImage.jpg */; };
 		6A56CD841A6C4DCA001CDFA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A56CD831A6C4DCA001CDFA3 /* main.m */; };
 		6A56CD871A6C4DCA001CDFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A56CD861A6C4DCA001CDFA3 /* AppDelegate.m */; };
 		6A56CD8A1A6C4DCA001CDFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A56CD891A6C4DCA001CDFA3 /* ViewController.m */; };
@@ -14,6 +18,14 @@
 		6A56CD8F1A6C4DCA001CDFA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A56CD8E1A6C4DCA001CDFA3 /* Images.xcassets */; };
 		6A56CD921A6C4DCA001CDFA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A56CD901A6C4DCA001CDFA3 /* LaunchScreen.xib */; };
 		6A56CD9E1A6C4DCA001CDFA3 /* HeartRateMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A56CD9D1A6C4DCA001CDFA3 /* HeartRateMonitorTests.m */; };
+		6A5901A51AEB95B500A89C87 /* MultiplePulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5901A21AEB95B500A89C87 /* MultiplePulsingHaloLayer.m */; };
+		6A5901A61AEB95B500A89C87 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5901A41AEB95B500A89C87 /* PulsingHaloLayer.m */; };
+		6A63933E1A8DF873005A278C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A63933D1A8DF873005A278C /* CoreLocation.framework */; };
+		6AF190C11AEBC59A00C5D1D3 /* houston_problem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AF190C01AEBC59A00C5D1D3 /* houston_problem.mp3 */; };
+		6AF92B941AEC4414006F8E81 /* SharedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF92B931AEC4414006F8E81 /* SharedController.m */; };
+		6AF92B971AECD7CF006F8E81 /* TinderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF92B961AECD7CF006F8E81 /* TinderController.m */; };
+		6AF92B9A1AECD8F1006F8E81 /* NoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AF92B981AECD8F1006F8E81 /* NoButton.png */; };
+		6AF92B9B1AECD8F1006F8E81 /* YesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AF92B991AECD8F1006F8E81 /* YesButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62677C052FD67199181A0921 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6A0ED94D1AEC1DF300269233 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		6A117E781AEC3B4D00C9B6FA /* SettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		6A244D2C1AEC0C2A00AD64A9 /* PageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageController.m; sourceTree = "<group>"; };
+		6A244D2E1AEC0C3A00AD64A9 /* PageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageController.h; sourceTree = "<group>"; };
+		6A4645AC1AA3A6BF001DF042 /* HeartImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HeartImage.jpg; sourceTree = "<group>"; };
 		6A56CD7E1A6C4DCA001CDFA3 /* HeartRateMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A56CD821A6C4DCA001CDFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A56CD831A6C4DCA001CDFA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +58,21 @@
 		6A56CD971A6C4DCA001CDFA3 /* HeartRateMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A56CD9C1A6C4DCA001CDFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A56CD9D1A6C4DCA001CDFA3 /* HeartRateMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartRateMonitorTests.m; sourceTree = "<group>"; };
+		6A5901A11AEB95B500A89C87 /* MultiplePulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplePulsingHaloLayer.h; sourceTree = "<group>"; };
+		6A5901A21AEB95B500A89C87 /* MultiplePulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplePulsingHaloLayer.m; sourceTree = "<group>"; };
+		6A5901A31AEB95B500A89C87 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		6A5901A41AEB95B500A89C87 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+		6A63933D1A8DF873005A278C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6AF190C01AEBC59A00C5D1D3 /* houston_problem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = houston_problem.mp3; sourceTree = "<group>"; };
+		6AF190F61AEBD99A00C5D1D3 /* HeartRateMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HeartRateMonitor.entitlements; sourceTree = "<group>"; };
+		6AF92B921AEC4414006F8E81 /* SharedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedController.h; sourceTree = "<group>"; };
+		6AF92B931AEC4414006F8E81 /* SharedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedController.m; sourceTree = "<group>"; };
+		6AF92B951AECD7B6006F8E81 /* TinderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinderController.h; sourceTree = "<group>"; };
+		6AF92B961AECD7CF006F8E81 /* TinderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinderController.m; sourceTree = "<group>"; };
+		6AF92B981AECD8F1006F8E81 /* NoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoButton.png; sourceTree = "<group>"; };
+		6AF92B991AECD8F1006F8E81 /* YesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YesButton.png; sourceTree = "<group>"; };
+		8C8E87FF72F2241997C3E29E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD2FB6AC2370FD260F61419 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A63933E1A8DF873005A278C /* CoreLocation.framework in Frameworks */,
+				5727BC6BFE2F966D699091AA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CAE5B5AAD5F02593A3DB309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E87FF72F2241997C3E29E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A4645AB1AA3A677001DF042 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6AF92B981AECD8F1006F8E81 /* NoButton.png */,
+				6AF92B991AECD8F1006F8E81 /* YesButton.png */,
+				6A4645AC1AA3A6BF001DF042 /* HeartImage.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		6A56CD751A6C4DC9001CDFA3 = {
 			isa = PBXGroup;
 			children = (
+				6A63933D1A8DF873005A278C /* CoreLocation.framework */,
 				6A56CD801A6C4DCA001CDFA3 /* HeartRateMonitor */,
 				6A56CD9A1A6C4DCA001CDFA3 /* HeartRateMonitorTests */,
 				6A56CD7F1A6C4DCA001CDFA3 /* Products */,
+				B544E5F69EED3C0494B34CDE /* Pods */,
+				1CAE5B5AAD5F02593A3DB309 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +137,16 @@
 		6A56CD801A6C4DCA001CDFA3 /* HeartRateMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				6AF190F61AEBD99A00C5D1D3 /* HeartRateMonitor.entitlements */,
+				6AF190871AEBBD4C00C5D1D3 /* Sounds */,
+				6AF190861AEBBC7100C5D1D3 /* Controller */,
+				6AF190851AEBBC5B00C5D1D3 /* PulseLib */,
+				6AF190841AEBBC4800C5D1D3 /* Views */,
+				6A4645AB1AA3A677001DF042 /* images */,
 				6A56CD851A6C4DCA001CDFA3 /* AppDelegate.h */,
 				6A56CD861A6C4DCA001CDFA3 /* AppDelegate.m */,
-				6A56CD881A6C4DCA001CDFA3 /* ViewController.h */,
-				6A56CD891A6C4DCA001CDFA3 /* ViewController.m */,
 				6A56CD8B1A6C4DCA001CDFA3 /* Main.storyboard */,
 				6A56CD8E1A6C4DCA001CDFA3 /* Images.xcassets */,
-				6A56CD901A6C4DCA001CDFA3 /* LaunchScreen.xib */,
 				6A56CD811A6C4DCA001CDFA3 /* Supporting Files */,
 			);
 			path = HeartRateMonitor;
@@ -119,6 +178,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6AF190841AEBBC4800C5D1D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A56CD901A6C4DCA001CDFA3 /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6AF190851AEBBC5B00C5D1D3 /* PulseLib */ = {
+			isa = PBXGroup;
+			children = (
+				6A5901A11AEB95B500A89C87 /* MultiplePulsingHaloLayer.h */,
+				6A5901A21AEB95B500A89C87 /* MultiplePulsingHaloLayer.m */,
+				6A5901A31AEB95B500A89C87 /* PulsingHaloLayer.h */,
+				6A5901A41AEB95B500A89C87 /* PulsingHaloLayer.m */,
+			);
+			name = PulseLib;
+			sourceTree = "<group>";
+		};
+		6AF190861AEBBC7100C5D1D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AF92B921AEC4414006F8E81 /* SharedController.h */,
+				6AF92B931AEC4414006F8E81 /* SharedController.m */,
+				6A244D2E1AEC0C3A00AD64A9 /* PageController.h */,
+				6A244D2C1AEC0C2A00AD64A9 /* PageController.m */,
+				6A56CD881A6C4DCA001CDFA3 /* ViewController.h */,
+				6A56CD891A6C4DCA001CDFA3 /* ViewController.m */,
+				6A117E781AEC3B4D00C9B6FA /* SettingsController.h */,
+				6A0ED94D1AEC1DF300269233 /* SettingsController.m */,
+				6AF92B951AECD7B6006F8E81 /* TinderController.h */,
+				6AF92B961AECD7CF006F8E81 /* TinderController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6AF190871AEBBD4C00C5D1D3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6AF190C01AEBC59A00C5D1D3 /* houston_problem.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		B544E5F69EED3C0494B34CDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDD2FB6AC2370FD260F61419 /* Pods.debug.xcconfig */,
+				62677C052FD67199181A0921 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A56CDA11A6C4DCA001CDFA3 /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */;
 			buildPhases = (
+				0C5E16F5FA00081417446F7E /* Check Pods Manifest.lock */,
 				6A56CD7A1A6C4DC9001CDFA3 /* Sources */,
 				6A56CD7B1A6C4DC9001CDFA3 /* Frameworks */,
 				6A56CD7C1A6C4DC9001CDFA3 /* Resources */,
+				40EC6811FB292C10C69E2505 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +282,12 @@
 				TargetAttributes = {
 					6A56CD7D1A6C4DC9001CDFA3 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 74CA69W8CM;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					6A56CD961A6C4DCA001CDFA3 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +319,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4645AD1AA3A6BF001DF042 /* HeartImage.jpg in Resources */,
 				6A56CD8D1A6C4DCA001CDFA3 /* Main.storyboard in Resources */,
+				6AF92B9A1AECD8F1006F8E81 /* NoButton.png in Resources */,
 				6A56CD921A6C4DCA001CDFA3 /* LaunchScreen.xib in Resources */,
 				6A56CD8F1A6C4DCA001CDFA3 /* Images.xcassets in Resources */,
+				6AF190C11AEBC59A00C5D1D3 /* houston_problem.mp3 in Resources */,
+				6AF92B9B1AECD8F1006F8E81 /* YesButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,11 +338,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C5E16F5FA00081417446F7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40EC6811FB292C10C69E2505 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A56CD7A1A6C4DC9001CDFA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF92B941AEC4414006F8E81 /* SharedController.m in Sources */,
+				6A5901A61AEB95B500A89C87 /* PulsingHaloLayer.m in Sources */,
+				6A5901A51AEB95B500A89C87 /* MultiplePulsingHaloLayer.m in Sources */,
+				6A0ED94E1AEC1DF300269233 /* SettingsController.m in Sources */,
+				6AF92B971AECD7CF006F8E81 /* TinderController.m in Sources */,
+				6A244D2D1AEC0C2A00AD64A9 /* PageController.m in Sources */,
 				6A56CD8A1A6C4DCA001CDFA3 /* ViewController.m in Sources */,
 				6A56CD871A6C4DCA001CDFA3 /* AppDelegate.m in Sources */,
 				6A56CD841A6C4DCA001CDFA3 /* main.m in Sources */,
@@ -297,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,21 +506,30 @@
 		};
 		6A56CDA21A6C4DCA001CDFA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD2FB6AC2370FD260F61419 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HeartRateMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6A56CDA31A6C4DCA001CDFA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62677C052FD67199181A0921 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HeartRateMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -414,6 +586,7 @@
 				6A56CDA31A6C4DCA001CDFA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A56CDA41A6C4DCA001CDFA3 /* Build configuration list for PBXNativeTarget "HeartRateMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +595,7 @@
 				6A56CDA61A6C4DCA001CDFA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

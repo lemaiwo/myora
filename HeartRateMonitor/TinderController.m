@@ -64,15 +64,15 @@
                                                       error:&error];
     
     if (mydata) {
-        NSLog(@"OK ,%@", mydata);
-        uint8_t byteArray[[mydata length]];
         
-        [mydata getBytes:&byteArray length:[mydata length]];
+        NSError *localError = nil;
+        NSDictionary *parsedObject = [NSJSONSerialization JSONObjectWithData:mydata options:0 error:&localError];
         
-        for (int i = 0; i<[mydata length]; i++) {
-            char byte = byteArray[i];
-            NSLog(@"%c",byte);
+        if (localError != nil) {
+            NSLog(@"Parsing Error");
         }
+        NSArray *results = [parsedObject valueForKey:@"id"];
+        
         
     }
 
